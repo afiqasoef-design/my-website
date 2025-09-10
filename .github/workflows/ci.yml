@@ -1,0 +1,8 @@
+cd /path/to/repo
+mkdir -p .github/workflows
+cat > .github/workflows/ci.yml <<'YML'
+# (paste YAML here)
+YML
+git add .github/workflows
+git commit -m "Add GitHub Actions workflow"
+git push -u origin HEAD
